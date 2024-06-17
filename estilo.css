@@ -1,0 +1,138 @@
+.container-nav{
+    display: flex;
+    background-color: #05080a;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+
+.li-nav{
+    border-radius: 6px;
+    padding: 16px;
+}
+.li-nav:hover{
+    text-decoration: underline;
+}
+
+
+.link-nav{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+
+
+#planos-box-color--active{
+    background-color: #cbe300;
+    pointer-events: none;
+}
+
+
+#planos-id-letter{
+    color: #05080a;
+}
+
+
+#planos-box-color:hover{
+    text-decoration: none;
+}
+
+
+.logo-nav{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+
+body{
+    width: 90%;
+    max-width: 960px;
+    background-color: #0c1014;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.h1-main{
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+
+.section-main{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.div-main-plans{
+    flex: 1;
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.h2-main-plans{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+.p-main-plans{
+    margin-top: 0;
+}
+.p-main-plans--prices{
+    font-size: 33px;
+}
+
+.ul--features{
+    margin: 0 0 35px 0;
+    color: b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+.ul--features li::marker{
+    color: #cbe300;
+}
+
+
+button{
+    background-color: #cbe300;
+    cursor: pointer;
+    color: #0c1014;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 16px;
+}
+button:hover{
+    color:white;
+    border: 2px solid #cbe300;
+    background-color: transparent;
+}
