@@ -1,3 +1,8 @@
+html{
+    background-color: black;
+}
+
+
 .container-nav{
     display: flex;
     background-color: #05080a;
@@ -110,7 +115,7 @@ body{
 
 .ul--features{
     margin: 0 0 35px 0;
-    color: b5b5b5;
+    color: #b5b5b5;
     padding-left: 16px;
     line-height: 1.8;
     flex-grow: 1;
@@ -135,4 +140,4 @@ button:hover{
     color:white;
     border: 2px solid #cbe300;
     background-color: transparent;
-}
+}   
